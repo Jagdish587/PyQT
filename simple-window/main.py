@@ -2,7 +2,7 @@
 
 
 import sys
-from PyQt5.QtWidgets import QApplication, QLabel, QMainWindow
+from PyQt5.QtWidgets import QApplication, QLabel, QMainWindow, QPushButton
 from PyQt5.QtCore import Qt
 
 # Subclass QMainWindow to customise your application's main window
@@ -14,6 +14,7 @@ class MainWindow(QMainWindow):
         label = QLabel("This is a simple text !")
         label.setAlignment(Qt.AlignCenter)
         self.setCentralWidget(label)
+        button = QPushButton("Press Me!")
 
 app = QApplication(sys.argv)
 window = MainWindow()
