@@ -1,3 +1,3 @@
 {
-    "files": ["main.py","signals-slots.py"]
+    "files": ["signals-slots.py","main.py","all-widgets.py"]
 }
